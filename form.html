@@ -1,0 +1,2115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <title>Y học cổ truyền</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <form id="yHocCoTruyenForm" onsumbit="submit()">
+        <div class="form">
+          <div class="header">
+            <div class="center">
+              <div>BỆNH ÁN NGOẠI TRÚ</div>
+              <div>Y HỌC CỔ TRUYỀN</div>
+            </div>
+
+            <div class="left column" style="width: 30%">
+              <div class="row">
+                Bệnh viện
+                <div class="input-style" style="width: 62%">
+                  <input name="benhVien" class="text-input" />
+                </div>
+              </div>
+              <div class="row">
+                Khoa:
+                <div class="input-style" style="width: 77%">
+                  <input name="khoa" class="text-input" />
+                </div>
+              </div>
+              <div class="row">
+                Buồng:
+                <div class="input-style" style="width: 72%">
+                  <input name="buong" class="text-input" />
+                </div>
+              </div>
+            </div>
+
+            <div class="right">
+              <div class="row">
+                Số vào viện:
+                <div class="input-style" style="width: 110px">
+                  <input name="soVaoVien" class="text-input" />
+                </div>
+              </div>
+              <div class="row">
+                Số lưu trữ:
+                <div class="input-style" style="width: 110px">
+                  <input name="soLuuTru" class="text-input" />
+                </div>
+              </div>
+              <div class="row">
+                Mã người bệnh:
+                <div class="input-style" style="width: 87px">
+                  <input name="maNguoiBenh" class="text-input" />
+                </div>
+              </div>
+              <div class="row">
+                Mã YT:
+                <div class="input-style" style="width: 138px">
+                  <input name="maYT" class="text-input" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <br />
+          <div class="text-center label-bold label-1"name="phanChung">PHẦN I: PHẦN CHUNG</div>
+
+          <div class="label-bold" name="hanhChinh">I: HÀNH CHÍNH</div>
+
+          <div class="row">
+            <div class="row" style="width: 23%">
+              1. Họ và tên(In hoa):
+            </div>
+              <div class="row" style="width: 22%">
+              <div class="input-style" >
+                <input class="text-input" name="phanChung_hanhChinh_hoVaTen" />
+              </div>
+            </div>
+
+            <div class="row" style="width: 55%">
+              2. Ngày sinh:
+              <input name="phanChung_hanhChinh_ngayThangNamSinh_1" class="input-10" />
+              <input name="phanChung_hanhChinh_ngayThangNamSinh_2" class="input-10" />
+              <input name="phanChung_hanhChinh_ngayThangNamSinh_3" class="input-10" />
+              <input name="phanChung_hanhChinh_ngayThangNamSinh_4" class="input-10" />
+              <input name="phanChung_hanhChinh_ngayThangNamSinh_5" class="input-10" />
+              <input name="phanChung_hanhChinh_ngayThangNamSinh_6" class="input-10" />
+              <input name="phanChung_hanhChinh_ngayThangNamSinh_7" class="input-10" />
+              <input name="phanChung_hanhChinh_ngayThangNamSinh_8" class="input-10" />
+                Tuổi
+                <div class="input-style" style="width: calc(100% - 303px)">
+                    <input name="phanChung_hanhChinh_tuoi" class="text-input" />
+                </div>
+                <input name="phanChung_hanhChinh_tuoi1" class="input-10" style="margin-right: 3px" />
+                <input name="phanChung_hanhChinh_tuoi2" class="input-10" />
+                </div>
+          </div>
+
+          <div class="row">
+            <div class="row" style="width: 45%;">
+              3. Giới:
+              <div>
+                <label for="nam" style="margin-left: 20px;"> 1. Nam</label
+                ><input id="nam" name="phanChung_hanhChinh_gioi_nam" type="radio" />
+              </div>
+              <div>
+                <label for="nu"  style="margin-left: 20px;"> 2. Nữ
+                </label><input name="phanChung_hanhChinh_gioi_nu" type="radio" />
+              </div>
+            </div>
+            <div class="row" style="width: 55%;">
+              4. Nghề nghiệp:
+              <div class="input-style" style="width: calc(100% - 146px)">
+                <input name="phanChung_hanhChinh_ngheNghiep" class="text-input" />
+              </div>
+              <input
+                name="ngheNghiep"
+                class="input-10"
+                style="margin-right: 3px"
+              />
+              <input name="ngheNghiep" class="input-10" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="row" style="width: 20%;">
+              5. Dân tộc:
+              </div>
+              <div class="row" style="width: 62%">
+              <div class="input-style" style="width: calc(100%)">
+                <input name="phanChung_hanhChinh_danToc" class="text-input" />
+              </div>
+              <input name="danToc" class="input-10" style="margin-right: 3px" />
+              <input name="danToc" class="input-10" style="margin-right: 5px;"/>
+            </div>
+            <div class="row" style="width: 25%;">
+              6. Quốc tịch:
+            </div>
+            <div class="row" style="width: 75%">
+              <div class="input-style" style="width: calc(100%)">
+                <input name="phanChung_hanhChinh_quocTich" class="text-input" />
+              </div>
+              <input
+                name="quocTich"
+                class="input-10"
+                style="margin-right: 3px"
+              />
+              <input name="quocTich" class="input-10" />
+            </div>
+          </div>
+
+          <div class="row" name="phanChung_hanhChinh_diaChiHienTai">
+            7. Địa chỉ hiện tại:
+          </div>
+          <div class="row" style="width: 100%">
+              <div class="row" style="width: 20%;">
+                Số nhà:
+              <div class="input-style" style="width: calc(100% - 80px)">
+                <input name="phanChung_hanhChinh_diaChiHienTai_soNha" class="text-input" />
+              </div>
+            </div>
+            <div class="row" style="width: 25%;">
+              Thôn, phố:
+              <div class="input-style" style="width: calc(100% - 78px)">
+                <input name="phanChung_hanhChinh_diaChiHienTai_thon" class="text-input" />
+              </div>
+            </div>
+            <div class="row" style="width: 55%;">
+              Phường:
+              <div class="input-style" style="width: calc(100% - 20px)">
+                <input name="phanChung_hanhChinh_diaChiHienTai_phuong" class="text-input" />
+              </div>
+              <input name="phuong" class="input-10" style="margin-right: 3px" />
+              <input name="phuong" class="input-10" />
+            </div>
+          </div>
+
+          <div class="row" style="width: 100%">
+            <div class="row" style="width: 50%">
+              Huyện (Q,Tx,Tp):
+              <div class="input-style" style="width: calc(100% - 169px)">
+                <input name="phanChung_hanhChinh_diaChiHienTai_huyen" class="text-input" />
+              </div>
+              <input name="huyen" class="input-10" style="margin-right: 3px" />
+              <input name="huyen" class="input-10" style="margin-right: 5px" />
+            </div>
+
+            <div class="row" style="width: 50%">
+              Tỉnh, Thành phố
+              <div class="input-style" style="width: calc(100% - 111px)">
+                <input name="phanChung_hanhChinh_diaChiHienTai_tinh" class="text-input" />
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="row">8. Nơi làm việc</div>
+            <div class="input-style" style="width: 100%">
+              <input name="phanChung_hanhChinh_noiLamViec" class="text-input" />
+            </div>
+            <div class="input-style" style="width: 100%">
+              <input name="noiLamViec" class="text-input" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="row row-space" style="width: 600px">
+              9. Đối tượng:
+              <div>
+                <label for="BHYT"><i>1. BHYT</i></label
+                ><input name="phanChung_hanhChinh_doiTuong_BHYT" id="BHYT" type="radio" />
+              </div>
+              <div>
+                <label for="thuPhi"><i>2. Thu phí:</i></label
+                ><input name="phanChung_hanhChinh_doiTuong_thuPhi" id="thuPhi" type="radio" />
+              </div>
+              <div>
+                <label for="mien"><i>3. Miễn:</i></label
+                ><input name="phanChung_hanhChinh_doiTuong_mien" id="mien" type="radio" />
+              </div>
+              <div>
+                <label for="khac"><i>4. Khác:</i></label
+                ><input name="phanChung_hanhChinh_doiTuong_khac" id="khac" type="radio" />
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="row">
+              10. BHYT giá trị từ ngày
+              <div class="input-style" style="width: 30px">
+                <input name="phanChung_hanhChinh_BHYTGiaTriTu_ngay" class="text-input" />
+              </div>
+              tháng
+              <div class="input-style" style="width: 30px">
+                <input name="phanChung_hanhChinh_BHYTGiaTriTu_thang" class="text-input" />
+              </div>
+              năm
+              <div class="input-style" style="width: 30px">
+                <input name="phanChung_hanhChinh_BHYTGiaTriTu_nam" class="text-input" />
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="row" style="width: 100%;">
+              11. Họ tên, địa chỉ người nhà khi cần báo tin:
+              <div class="input-style" style="width: calc(100% - 294px)">
+                <input name="phanChung_hanhChinh_hoTenDiaChiNguoiNha" class="text-input" />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="row" style="width: 100%;">
+              Số điện thoại:
+              <div class="input-style" style="width: calc(100% - 93px)">
+                <input name="phanChung_hanhChinh_soDienThoai" class="text-input" />
+              </div>
+            </div>
+          </div>
+
+          <div class="label-bold" name="phanChung_quanLyBenhNhan">II: QUẢN LÝ BỆNH NHÂN</div>
+
+          <table class="form-table">
+            <tr>
+              <td style="width: 30%">
+                <div class="row" >
+                  12. Vào viện:
+                  <div class="input-style" style="width: 50px">
+                    <input  class="text-input" name="phanChung_quanLyBenhNhan_vaoVien"/>
+                  </div>
+                  ngày:
+                  <div class="input-style" style="width: 20px">
+                    <input name="phanChung_quanLyBenhNhan_vaoVien_ngay" class="text-input" />
+                  </div>
+                  giờ
+                  <div class="input-style" style="width: 20px">
+                    <input name="phanChung_quanLyBenhNhan_vaoVien_gio" class="text-input" />
+                  </div>
+                  phút
+                  <div class="input-style" style="width: 20px">
+                    <input name="phanChung_quanLyBenhNhan_vaoVien_phut" class="text-input" />
+                  </div>
+                </div>
+
+                <div class="row">
+                  13. Trực tiếp vào khoa khám bệnh:
+                  <input
+                    name="phanChung_quanLyBenhNhan_trucTiepVaoKhoaKhamBenh"
+                    class="input-20"
+                    style="margin-left: 10px"
+                  />
+                </div>
+              </td>
+
+              <td style="width: 50%">
+                <div class="row">
+                  <div class="row row-space" name="phanChung_quanLyBenhNhan_noiGioiThieu">
+                    14. Nơi giới thiệu:
+                    <div>
+                      <label for="coQuanYTe"><i>1. Cơ quan y tế:</i></label
+                      ><input name="phanChung_quanLyBenhNhan_noiGioiThieu_coQuanYTe" id="coQuanYTe" type="radio" />
+                    </div>
+                    <div>
+                      <label for="tuDen"><i>2. Tự đến:</i></label
+                      ><input id="tuDen" name="phanChung_quanLyBenhNhan_noiGioiThieu_tuDen" type="radio" />
+                    </div>
+                    <div>
+                      <label for="khac"><i>3. Khác:</i></label
+                      ><input id="khac" name="phanChung_quanLyBenhNhan_noiGioiThieu_khac" type="radio" />
+                    </div>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 50%">
+                <div class="row">
+                  15. Vào khoa:
+                  <div>
+                    <input
+                      type="text"
+                      style="width: 30px; margin-left: 5px; margin-right: 5px"
+                      name="phanChung_quanLyBenhNhan_vaoKhoa"
+                    />
+                  </div>
+                  ngày:
+                  <div name="phanChung_quanLyBenhNhan_vaoKhoa_ngay" class="input-style" style="width: 25px">
+                    <input class="text-input" />
+                  </div>
+                  giờ
+                  <div name="phanChung_quanLyBenhNhan_vaoKhoa_gio" class="input-style" style="width: 20px">
+                    <input class="text-input" />
+                  </div>
+                  phút
+                  <div name="phanChung_quanLyBenhNhan_vaoKhoa_phut" class="input-style" style="width: 20px">
+                    <input class="text-input" />
+                  </div>
+                </div>
+              </td>
+
+              <td>
+                <div class="row" name="phanChung_quanLyBenhNhan_chuyenVien">
+                  16. Chuyển viện:
+                  <div>
+                    <label for="chuyenVienTuyenTren"
+                      ><i>1. Tuyến trên:</i></label
+                    ><input
+                      id="chuyenVienTuyenTren"
+                      name="phanChung_quanLyBenhNhan_chuyenVien_tuyenTren"
+                      type="radio"
+                    />
+                  </div>
+                  <div>
+                    <label for="chuyenVienTuyenDuoi"
+                      ><i>2. Tuyến dưới:</i></label
+                    >
+                    <input
+                      id="chuyenVienTuyenDuoi"
+                      name="phanChung_quanLyBenhNhan_chuyenVien_tuyenDuoi"
+                      type="radio"
+                    />
+                  </div>
+                  <div>
+                    <label for="chuyenVienCK"><i>3. CK:</i></label
+                    ><input id="chuyenVienCK" name="phanChung_quanLyBenhNhan_chuyenVien_CK" type="radio" />
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="row" style="width: 100%;">
+                    Chuyển viện
+                    <div class="input-style" style="width: calc(100% - 91px)">
+                      <input name="chuyenVien" class="text-input" />
+                    </div>
+                  </div>
+
+                  <div class="input-style" style="width: calc(100% - 10px)">
+                    <input name="chuyenVien" class="text-input" />
+                  </div>
+                </div>
+                <div class="row" name="phanChung_quanLyBenhNhan__ngayRaVien">
+                  17. Ngày Ra viện:
+                  <div class="input-style" style="width: 40px">
+                    <input class="text-input" />
+                  </div>
+                  ngày:
+                  <div class="input-style" style="width: 20px">
+                    <input name="phanChung_quanLyBenhNhan_ngayRaVien_ngay" class="text-input" />
+                  </div>
+                  giờ
+                  <div class="input-style" style="width: 20px">
+                    <input name="phanChung_quanLyBenhNhan_ngayRaVien_gio" class="text-input" />
+                  </div>
+                  phút
+                  <div class="input-style" style="width: 20px">
+                    <input name="phanChung_quanLyBenhNhan_ngayRaVien_phut" class="text-input" />
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="row row-space" name="phanChung_quanLyBenhNhan_raVien">
+                    Ra viện:
+                    <div>
+                      <label for="coQuanYTe"><i>1. Cơ quan y tế:</i></label
+                      ><input
+                        id="coQuanYTe"
+                        name="phanChung_quanLyBenhNhan_raVien_coQuanYTe"
+                        type="radio"
+                      />
+                    </div>
+                    <div>
+                      <label for="tronVien"><i>2. Trốn viện:</i></label
+                      ><input
+                        id="tronVien"
+                        name="phanChung_quanLyBenhNhan_raVien_tronVien"
+                        type="radio"
+                      />
+                    </div>
+                    <div>
+                      <label for="xinraVien"><i>3. Xin ra viện:</i></label
+                      ><input
+                        id="xinraVien"
+                        name="phanChung_quanLyBenhNhan_raVien_xinRaVien"
+                        type="radio"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  18. Tổng số ngày điều trị:
+                  <input
+                    name="phanChung_quanLyBenhNhan_tongSoNgayDieuTri"
+                    class="input-10"
+                    style="margin-right: 3px"
+                  />
+                  <input name="tongSoNgayDieuTri" class="input-10" />
+                </div>
+              </td>
+            </tr>
+          </table>
+
+          <div class="label-bold" name="phanChung_chanDoan">III: CHẨN ĐOÁN:</div>
+
+          <table class="form-table">
+            <tr>
+              <td style="width: 50%">
+                <div class="row">
+                  <div class="label-bold" name="phanChung_chanDoan_chanDoanTheoYHHD">CHẨN ĐOÁN THEO YHHĐ:</div>
+                  <span style="padding-left: 25%">MÃ</span>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div class="label-bold" name="phanChung_chanDoan_chanDoanTheoYHCT">CHẨN ĐOÁN THEO YHCT:</div>
+                  <span style="padding-left: 25%">MÃ</span>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 50%">
+                <div class="row" style="width: 100%;">
+                  19. Nơi chuyển đến:
+                  <div class="input-style" style="width: calc(100% - 225px)">
+                    <input name="phanChung_chanDoan_chanDoanTheoYHHD_noiChuyenDen" class="text-input" />
+                  </div>
+                  <input name="noiChuyenDen" class="input-10" />
+                  <input name="noiChuyenDen" class="input-10" />
+                  <input name="noiChuyenDen" class="input-10" />
+                  <input name="noiChuyenDen" class="input-10" />
+                  <input name="noiChuyenDen" class="input-10" />
+                </div>
+                <div class="row" style="width: 100%;">
+                  20. Khoa khám bệnh:
+                  <div class="input-style" style="width: calc(100% - 232px)">
+                    <input name="phanChung_chanDoan_chanDoanTheoYHHD_khoaKhamBenh" class="text-input" />
+                  </div>
+                  <input name="khoaKhamBenh" class="input-10" />
+                  <input name="khoaKhamBenh" class="input-10" />
+                  <input name="khoaKhamBenh" class="input-10" />
+                  <input name="khoaKhamBenh" class="input-10" />
+                  <input name="khoaKhamBenh" class="input-10" />
+                </div>
+                <div class="row" style="width: 100%;">
+                  _ Bệnh chính:
+                  <div class="input-style" style="width: calc(100% - 184px)">
+                    <input name="phanChung_chanDoan_chanDoanTheoYHHD_khoaKhamBenh_benhChinh" class="text-input" />
+                  </div>
+                  <input name="benhChinh" class="input-10" />
+                  <input name="benhChinh" class="input-10" />
+                  <input name="benhChinh" class="input-10" />
+                  <input name="benhChinh" class="input-10" />
+                  <input name="benhChinh" class="input-10" />
+                </div>
+                <div class="row" style="width: 100%;">
+                  _ Bệnh kèm theo:
+                  <div class="input-style" style="width: calc(100% - 208px)">
+                    <input name="phanChung_chanDoan_chanDoanTheoYHHD_khoaKhamBenh_benhKemTheo" class="text-input" />
+                  </div>
+                  <input name="" class="input-10" />
+                  <input name="benhKemTheo" class="input-10" />
+                  <input name="benhKemTheo" class="input-10" />
+                  <input name="benhKemTheo" class="input-10" />
+                  <input name="benhKemTheo" class="input-10" />
+                </div>
+                <div class="row" style="width: 100%;">
+                  <div class="input-style" style="width: calc(100% - 95px)">
+                    <input name="benhKemTheo" class="text-input" />
+                  </div>
+                  <input name="benhKemTheo" class="input-10" />
+                  <input name="benhKemTheo" class="input-10" />
+                  <input name="benhKemTheo" class="input-10" />
+                  <input name="benhKemTheo" class="input-10" />
+                  <input name="benhKemTheo" class="input-10" />
+                </div>
+                <div class="row" style="width: 100%;">
+                  <div class="input-style" style="width: calc(100% - 95px)">
+                    <input name="benhKemTheo" class="text-input" />
+                  </div>
+                  <input name="benhKemTheo" class="input-10" />
+                  <input name="benhKemTheo" class="input-10" />
+                  <input name="benhKemTheo" class="input-10" />
+                  <input name="benhKemTheo" class="input-10" />
+                  <input name="benhKemTheo" class="input-10" />
+                </div>
+                <div class="row" style="width: 100%;">
+                  <div class="input-style" style="width: calc(100% - 95px)">
+                    <input name="benhKemTheo" class="text-input" />
+                  </div>
+                  <input name="benhKemTheo" class="input-10" />
+                  <input name="benhKemTheo" class="input-10" />
+                  <input name="benhKemTheo" class="input-10" />
+                  <input name="benhKemTheo" class="input-10" />
+                  <input name="benhKemTheo" class="input-10" />
+                </div>
+                <div class="row" style="width: 100%;">
+                  <div class="input-style" style="width: calc(100% - 95px)">
+                    <input name="benhKemTheo" class="text-input" />
+                  </div>
+                  <input name="benhKemTheo" class="input-10" />
+                  <input name="benhKemTheo" class="input-10" />
+                  <input name="benhKemTheo" class="input-10" />
+                  <input name="benhKemTheo" class="input-10" />
+                  <input name="benhKemTheo" class="input-10" />
+                </div>
+                <div class="row">
+                  + Thủ thuật:
+                  <input name="phanChung_chanDoan_chanDoanTheoYHHD_khoaKhamBenh_thuThuat" class="input-10" />
+                </div>
+                <div class="row">21. Ra viện:</div>
+                <div class="row" style="width: 100%;">
+                  - Bệnh chính:
+                  <div class="input-style" style="width: calc(100% - 91px)">
+                    <input name="phanChung_chanDoan_chanDoanTheoYHHD_raVien_benhChinh" class="text-input" />
+                  </div>
+                </div>
+                <div class="row" style="width: 100%;">
+                  - Bệnh kèm theo:
+                  <div class="input-style" style="width: calc(100% - 115px)">
+                    <input name="phanChung_chanDoan_chanDoanTheoYHHD_raVien_benhKemTheo" class="text-input" />
+                  </div>
+                </div>
+                <div class="row">
+                  + Tai biến:
+                  <input name="phanChung_chanDoan_chanDoanTheoYHHD_raVien_taiBien" class="input-10" />
+                </div>
+                <div class="row">
+                  + Biến chứng:
+                  <input name="phanChung_chanDoan_chanDoanTheoYHHD_raVien_bienChung" class="input-10" />
+                </div>
+              </td>
+
+              <td style="width: 50%">
+                <div class="row" style="width: 100%;">
+                  22. Nơi chuyển đến:
+                  <div class="input-style" style="width: calc(100% - 225px)">
+                    <input name="phanChung_chanDoan_chanDoanTheoYHCT_noiChuyenDen" class="text-input" />
+                  </div>
+                  <input name="noiChuyenDen" class="input-10" />
+                  <input name="noiChuyenDen" class="input-10" />
+                  <input name="noiChuyenDen" class="input-10" />
+                  <input name="noiChuyenDen" class="input-10" />
+                  <input name="noiChuyenDen" class="input-10" />
+                </div>
+                <div class="row" style="width: 100%;">
+                  23. Khoa khám bệnh:
+                  <div class="input-style" style="width: calc(100% - 233px)">
+                    <input name="phanChung_chanDoan_chanDoanTheoYHCT_khoaKhamBenh" class="text-input" />
+                  </div>
+                  <input name="khoaKhamBenh" class="input-10" />
+                  <input name="khoaKhamBenh" class="input-10" />
+                  <input name="khoaKhamBenh" class="input-10" />
+                  <input name="khoaKhamBenh" class="input-10" />
+                  <input name="khoaKhamBenh" class="input-10" />
+                </div>
+                <div class="row" style="width: 100%;">
+                  _ Bệnh chính:
+                  <div class="input-style" style="width: calc(100% - 185px)">
+                    <input name="phanChung_chanDoan_chanDoanTheoYHCT_khoaKhamBenh_benhChinh" class="text-input" />
+                  </div>
+                  <input name="benhChinh" class="input-10" />
+                  <input name="benhChinh" class="input-10" />
+                  <input name="benhChinh" class="input-10" />
+                  <input name="benhChinh" class="input-10" />
+                  <input name="benhChinh" class="input-10" />
+                </div>
+                <div class="row" style="width: 100%;">
+                  _ Bệnh kèm theo:
+                  <div class="input-style" style="width: calc(100% - 208px)">
+                    <input name="phanChung_chanDoan_chanDoanTheoYHCT_khoaKhamBenh_benhKemtheo" class="text-input" />
+                  </div>
+                  <input name="benhKemtheo" class="input-10" />
+                  <input name="benhKemtheo" class="input-10" />
+                  <input name="benhKemtheo" class="input-10" />
+                  <input name="benhKemtheo" class="input-10" />
+                  <input name="benhKemtheo" class="input-10" />
+                </div>
+                <div class="row" style="width: 100%;">
+                  <div class="input-style" style="width: calc(100% - 95px)">
+                    <input class="text-input" />
+                  </div>
+                  <input name="benhKemtheo" class="input-10" />
+                  <input name="benhKemtheo" class="input-10" />
+                  <input name="benhKemtheo" class="input-10" />
+                  <input name="benhKemtheo" class="input-10" />
+                  <input name="benhKemtheo" class="input-10" />
+                </div>
+                <div class="row" style="width: 100%;">
+                  <div class="input-style" style="width: calc(100% - 95px)">
+                    <input class="text-input" />
+                  </div>
+                  <input name="benhKemtheo" class="input-10" />
+                  <input name="benhKemtheo" class="input-10" />
+                  <input name="benhKemtheo" class="input-10" />
+                  <input name="benhKemtheo" class="input-10" />
+                  <input name="benhKemtheo" class="input-10" />
+                </div>
+                <div class="row" style="width: 100%;">
+                  <div class="input-style" style="width: calc(100% - 95px)">
+                    <input class="text-input" />
+                  </div>
+                  <input name="benhKemtheo" class="input-10" />
+                  <input name="benhKemtheo" class="input-10" />
+                  <input name="benhKemtheo" class="input-10" />
+                  <input name="benhKemtheo" class="input-10" />
+                  <input name="benhKemtheo" class="input-10" />
+                </div>
+                <div class="row" style="width: 100%;">
+                  <div class="input-style" style="width: calc(100% - 95px)">
+                    <input class="text-input" />
+                  </div>
+                  <input name="benhKemtheo" class="input-10" />
+                  <input name="benhKemtheo" class="input-10" />
+                  <input name="benhKemtheo" class="input-10" />
+                  <input name="benhKemtheo" class="input-10" />
+                  <input name="benhKemtheo" class="input-10" />
+                </div>
+                <div class="row">
+                  + Thủ thuật:
+                  <input name="phanChung_chanDoan_chanDoanTheoYHCT_khoaKhamBenh_thuThuat" class="input-10" />
+                </div>
+                <div class="row" name="phanChung_chanDoan_chanDoanTheoYHCT_khoaKhamBenh_raVien">24. Ra viện:</div>
+                <div class="row" style="width: 100%">
+                  - Bệnh chính:
+                  <div class="input-style" style="width: calc(100% - 91px)">
+                    <input name="phanChung_chanDoan_chanDoanTheoYHCT_khoaKhamBenh_raVien_benhChinh" class="text-input" />
+                  </div>
+                </div>
+                <div class="row" style="width: 100%">
+                  - Bệnh kèm theo:
+                  <div class="input-style" style="width: calc(100% - 115px)">
+                    <input name="phanChung_chanDoan_chanDoanTheoYHCT_khoaKhamBenh_raVien_benhKemtheo" class="text-input" />
+                  </div>
+                </div>
+                <div class="row">
+                  + Tai biến:
+                  <input name="phanChung_chanDoan_chanDoanTheoYHCT_khoaKhamBenh_raVien_taiBien" class="input-10" />
+                </div>
+                <div class="row">
+                  + Biến chứng:
+                  <input name="phanChung_chanDoan_chanDoanTheoYHCT_khoaKhamBenh_raVien_bienChung" class="input-10" />
+                </div>
+              </td>
+            </tr>
+          </table>
+          <br />
+          <div class="label-bold" name="phanChung_chanDoanTinhTrang">IV: CHẨN ĐOÁN TÌNH TRẠNG:</div>
+          <br />
+          <div class="row" style="width: 100%">
+            <div class="row row-space">
+              <div>
+                <label for="chanDoan_Khoi"><i>25. Khỏi:</i></label
+                ><input id="chanDoan_Khoi" type="radio" name="phanChung_chanDoanTinhTrang_khoi" />
+              </div>
+              <div>
+                <label for="chanDoan_Do"><i>26. Đỡ:</i></label
+                ><input id="chanDoan_Do" type="radio" name="phanChung_chanDoanTinhTrang_do" />
+              </div>
+              <div>
+                <label for="chanDoan_khongThayDoi"
+                  ><i>27. Không thay đổi:</i></label
+                ><input
+                  id="chanDoan_KhongThayDoi"
+                  type="radio"
+                  name="phanChung_chanDoanTinhTrang_khongThayDoi"
+                />
+              </div>
+              <div>
+                <label for="chanDoan_NangHon"><i>28. Nặng hơn:</i></label
+                ><input id="chanDoan_NangHon" type="radio" name="phanChung_chanDoanTinhTrang_nangHon" />
+              </div>
+              <div>
+                <label for="chanDoan_TuVong"><i>29. Tử vong:</i></label
+                ><input id="chanDoan_TuVong" type="radio" name="phanChung_chanDoanTinhTrang_tuVong" />
+              </div>
+            </div>
+          </div>
+          <br />
+
+          <div
+            style="
+              display: grid;
+              grid-template-columns: 1fr 1fr 2fr;
+              height: 133px;
+            "
+          >
+            <div class="chu-ky column">
+              <div class="label-bold">Giám đốc</div>
+              <div class="bottom">(Ký và ghi rõ họ tên)</div>
+            </div>
+
+            <div class="chu-ky column">
+              <div class="label-bold">Trưởng khoa</div>
+              <div class="bottom">(Ký và ghi rõ họ tên)</div>
+            </div>
+            <div class="chu-ky column">
+              <div class="date row" style="margin-left: 20%">
+                Ngày
+                <div class="input-style" style="width: 10%">
+                  <input name="chuKy_ngay" class="text-input" />
+                </div>
+                tháng
+                <div class="input-style" style="width: 10%">
+                  <input name="chuKy_thang" class="text-input" />
+                </div>
+                năm
+                <div class="input-style" style="width: 15%">
+                  <input name="chuKy_nam" class="text-input" />
+                </div>
+              </div>
+              <div class="label-bold">Thầy thuốc khám bệnh, chữa bệnh</div>
+              <div class="bottom">(Ký và ghi rõ họ tên)</div>
+            </div>
+          </div>
+          <div class="text-center label-bold label-1" name="benhAn">PHẦN II: BỆNH ÁN</div>
+
+          <div class="label-bold" name="benhAn_yHocHienDai">A: Y HỌC HIỆN ĐẠI:</div>
+
+          <div class="row">
+            <div class="label-bold">I. LÝ DO VÀO VIỆN:</div>
+          </div>
+          <div class="input-style" style="width: 100%">
+            <input name="benhAn_yHocHienDai_lyDoVaoVien" class="text-input" />
+          </div>
+          <div class="input-style" style="width: 100%">
+            <input name="lyDoVaoVien" class="text-input" />
+          </div>
+
+          <div class="row">
+            <div class="label-bold">II. BỆNH SỬ:</div>
+          </div>
+          <div class="input-style" style="width: 100%">
+            <input name="benhAn_yHocHienDai_benhSu" class="text-input" />
+          </div>
+          <div class="input-style" style="width: 100%">
+            <input name="benhSu" class="text-input" />
+          </div>
+          <div class="input-style" style="width: 100%">
+            <input name="benhSu" class="text-input" />
+          </div>
+          <div class="input-style" style="width: 100%">
+            <input name="benhSu" class="text-input" />
+          </div>
+          <div class="input-style" style="width: 100%">
+            <input name="benhSu" class="text-input" />
+          </div>
+          <div class="input-style" style="width: 100%">
+            <input name="benhSu" class="text-input" />
+          </div>
+
+          <div class="row">
+            <div class="label-bold">III. TIỀN SỬ:</div>
+          </div>
+          <div class="row" style="width: 100%;">
+            1. Bản thân:
+            <div class="input-style" style="width: calc(100% - 82px)">
+              <input name="benhAn_yHocHienDai_tienSu_banThan" class="text-input" />
+            </div>
+          </div>
+          <div class="row" style="width: 100%;">
+            + 1. Dị ứng 2. Rượu 3. Ma tuý 4. Thuốc lá 5. Khác.
+          </div>
+          <div class="row" style="width: 100%;">
+            + Mô tả(nếu có)
+            <div class="input-style" style="width: calc(100% - 108px)">
+              <input name="benhAn_yHocHienDai_tienSu_moTa" class="text-input" />
+            </div>
+          </div>
+          <div class="row" style="width: 100%;">
+            + Đặc điểm liên quan đến bệnh tật:
+            <div class="input-style" style="width: calc(100% - 229px)">
+              <input name="benhAn_yHocHienDai_tienSu_dacDiemLienQuanDenBenhTat" class="text-input" />
+            </div>
+          </div>
+          <div class="row" style="width: 100%;">
+            2. Gia đình:
+            <div class="input-style" style="width: calc(100% - 80px)">
+              <input name="giaDinh" class="text-input" />
+            </div>
+          </div>
+
+          <div class="label-bold"name="benhAn_yHocHienDai_khamBenh">IV. KHÁM BỆNH:</div>
+          <div class="row">
+            <div style="float: left" >
+              4.1 Khám toàn thân: (ý thức, da viêm mạc, hệ thống hạch, tuyến
+              giáp, vị trí, kích thước, số lượng, di động ...)
+
+              <div class="input-style" style="width: 90%">
+                <input name="benhAn_yHocHienDai_khamBenh_khamToanThan" class="text-input" />
+              </div>
+              <div class="input-style" style="width: 90%">
+                <input name="khamToanThan" class="text-input" />
+              </div>
+              <div class="input-style" style="width: 90%">
+                <input name="khamToanThan" class="text-input" />
+              </div>
+            </div>
+            <div style="float: right; border: 1px solid black; padding: 5px">
+              <div class="row">
+                Mạch
+                <div class="input-style" style="width: 60%">
+                  <input name="mach" class="text-input" />
+                </div>
+                lần/ph
+              </div>
+
+              <div class="row">
+                Nhiệt độ
+                <div class="input-style" style="width: 50%">
+                  <input name="nhietDo" class="text-input" />
+                </div>
+                'C
+              </div>
+              <div class="row">
+                Huyết áp
+                <div class="input-style" style="width: 50%">
+                  <input name="huyetAp" class="text-input" />
+                </div>
+                mm/Hg
+              </div>
+              <div class="row">
+                Nhịp thở
+                <div class="input-style" style="width: 50%">
+                  <input name="nhipTho" class="text-input" />
+                </div>
+                lần/ph
+              </div>
+              <div class="row">
+                Chiều cao
+                <div class="input-style" style="width: 50%">
+                  <input name="chieuCao" class="text-input" />
+                </div>
+                cm
+              </div>
+              <div class="row">
+                BMI
+                <div class="input-style" style="width: 60%">
+                  <input name="BMI" class="text-input" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row" name="benhAn_khamBenh_khamBoPhan">4.2 Khám bộ phận:</div>
+          <div class="row">Tuần hoàn:</div>
+          <div class="input-style" style="width: 100%">
+            <input name="benhAn_yHocHienDai_khamBenh_khamBoPhan_tuanHoan" class="text-input" />
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="tuanHoan" class="text-input" />
+            </div>
+          </div>
+          <div class="row">Hô hấp:</div>
+          <div class="input-style" style="width: 100%">
+            <input name="benhAn_yHocHienDai_khamBenh_khamBoPhan_hoHap" class="text-input" />
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="khamBoPhan_HoHap" class="text-input" />
+            </div>
+          </div>
+          <div class="row">Tiêu hoá:</div>
+          <div class="input-style" style="width: 100%">
+            <input name="benhAn_yHocHienDai_khamBenh_khamBoPhan_tieuHoa" class="text-input" />
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="khamBoPhan_TieuHoa" class="text-input" />
+            </div>
+          </div>
+          <div class="row">Tiết niệu, sinh dục:</div>
+          <div class="input-style" style="width: 100%">
+            <input name="benhAn_yHocHienDai_khamBenh_khamBoPhan_tietNieuSinhDuc" class="text-input" />
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="khamBoPhan_TietNieuSinhDuc" class="text-input" />
+            </div>
+          </div>
+          <div class="row">Thần kinh:</div>
+          <div class="input-style" style="width: 100%">
+            <input name="benhAn_yHocHienDai_khamBenh_khamBoPhan_thanKinh" class="text-input" />
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="khamBoPhan_ThanKinh" class="text-input" />
+            </div>
+          </div>
+          <div class="row">Cơ xương khớp:</div>
+          <div class="input-style" style="width: 100%">
+            <input name="benhAn_yHocHienDai_khamBenh_khamBoPhan_coXuongKhop" class="text-input" />
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="khamBoPhan_CoXuongKhop" class="text-input" />
+            </div>
+          </div>
+          <div class="row">Tai - Mũi - Họng:</div>
+          <div class="input-style" style="width: 100%">
+            <input name="benhAn_yHocHienDai_khamBenh_khamBoPhan_taiMuiHong" class="text-input" />
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="khamBoPhan_TaiMuiHong" class="text-input" />
+            </div>
+          </div>
+          <div class="row">Răng - Hàm - Mặt:</div>
+          <div class="input-style" style="width: 100%">
+            <input name="benhAn_yHocHienDai_khamBenh_khamBoPhan_rangHamMat" class="text-input" />
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="khamBoPhan_TaiMuiHong" class="text-input" />
+            </div>
+          </div>
+
+          <div class="row">Mắt:</div>
+          <div class="input-style" style="width: 100%">
+            <input name="benhAn_yHocHienDai_khamBenh_khamBoPhan_mat" class="text-input" />
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="khamBoPhan_Mat" class="text-input" />
+            </div>
+          </div>
+          <div class="row">Nội tiết, dinh dưỡng và các bệnh khác:</div>
+          <div class="input-style" style="width: 100%">
+            <input name="benhAn_yHocHienDai_khamBenh_khamBoPhan_noiTiet" class="text-input" />
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="khamBoPhan_NoiTiet" class="text-input" />
+            </div>
+          </div>
+
+          <div class="label-bold"name="benhAn_yHocHienDai_tomTatKetQuaLamSan">V. TÓM TẮT KẾT QUẢ LÂM SÀN:</div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="benhAn_yHocHienDai_tomTatKetQuaLamSan" class="text-input" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="benhAn_yHocHienDai_tomTatKetQuaLamSan" class="text-input" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="benhAn_yHocHienDai_tomTatKetQuaLamSan" class="text-input" />
+            </div>
+          </div>
+
+          <div class="label-bold">VI. CHẨN ĐOÁN:</div>
+          <div class="row" style="width: 100%;">
+            - Bệnh chính:
+            <div class="input-style" style="width: calc(100% - 181px)">
+              <input name="benhChinh" class="text-input" />
+            </div>
+            <input name="benhChinh" class="input-10" />
+            <input name="benhChinh" class="input-10" />
+            <input name="benhChinh" class="input-10" />
+            <input name="benhChinh" class="input-10" />
+            <input name="benhChinh" class="input-10" />
+          </div>
+          <div class="row" style="width: 100%;">
+            - Bệnh Kèm theo(nếu có):
+            <div class="input-style" style="width: calc(100% - 261px)">
+              <input name="benhKemTheo" class="text-input" />
+            </div>
+            <input name="benhKemTheo" class="input-10" />
+            <input name="benhKemTheo" class="input-10" />
+            <input name="benhKemTheo" class="input-10" />
+            <input name="benhKemTheo" class="input-10" />
+            <input name="benhKemTheo" class="input-10" />
+          </div>
+          <div class="row" style="width: 100%;">
+            - Phân biệt:
+            <div class="input-style" style="width: calc(100% - 168px)">
+              <input name="phanBiet" class="text-input" />
+            </div>
+            <input name="phanBiet" class="input-10" />
+            <input name="phanBiet" class="input-10" />
+            <input name="phanBiet" class="input-10" />
+            <input name="phanBiet" class="input-10" />
+            <input name="phanBiet" class="input-10" />
+          </div>
+
+          <div class="label-bold" name="benhAn_yHocCoTruyen">B: Y HỌC CỔ TRUYỀN:</div>
+          <div class="label-bold" name="benhAn_yHocCoTruyen_vongChan">I. VỌNG CHẨN</div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="vongChan" class="text-input" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="vongChan" class="text-input" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="vongChan" class="text-input" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="vongChan" class="text-input" />
+            </div>
+          </div>
+          <div class="label-bold">II. VĂN CHẨN</div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="vongChan" class="text-input" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="vongChan" class="text-input" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="vongChan" class="text-input" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="vongChan" class="text-input" />
+            </div>
+          </div>
+          <div class="label-bold">III. VẤN CHẨN</div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="benhAn_yHocCoTruyen_vanChan" class="text-input" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="vanChan" class="text-input" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="vanChan" class="text-input" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="vanChan" class="text-input" />
+            </div>
+          </div>
+
+          <div class="label-bold">IV. THIẾT CHẨN</div>
+          <div class="row" style="width: 100%">
+            1. Xúc chẩn:
+            <div class="input-style" style="width: calc(100% - 86px)">
+              <input name="xucChan" class="text-input" />
+            </div>
+          </div>
+          <div class="row" style="width: 100%">
+            <div class="input-style" style="width: 100%">
+              <input name="xucChan" class="text-input" />
+            </div>
+          </div>
+          <div class="row" style="width: 100%">
+            1. Mạch chẩn:
+            <div class="input-style" style="width: calc(100% - 95px)">
+              <input name="machChan" name="machChan" class="text-input" />
+            </div>
+          </div>
+          <div class="row" style="width: 100%">
+            + Mạch tay trái:
+            <div class="input-style" style="width: calc(100% - 107px)">
+              <input name="machTayTrai" class="text-input" />
+            </div>
+          </div>
+          <div class="row" style="width: 100%">
+            + Mạch tay phải:
+            <div class="input-style" style="width: calc(100% - 113px)">
+              <input name="machTayPhai" class="text-input" />
+            </div>
+          </div>
+
+          <div class="label-bold">V. TÓM TẮT TỨ CHẨN:</div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="tomTatTuChan" class="text-input" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="tomTatTuChan" class="text-input" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="tomTatTuChan" class="text-input" />
+            </div>
+          </div>
+          <div class="label-bold">VI. BIỆN CHỨNG LUẬN TRỊ:</div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="tomTatTuChan" class="text-input" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="tomTatTuChan" class="text-input" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="tomTatTuChan" class="text-input" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="tomTatTuChan" class="text-input" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="tomTatTuChan" class="text-input" />
+            </div>
+          </div>
+
+          <div class="label-bold">VII. CHẨN ĐOÁN:</div>
+          <div class="row">1. Bệnh danh:</div>
+          <div class="input-style" style="width: 100%">
+            <input name="lyDoVaoVien" class="text-input" />
+          </div>
+          <div class="row">2. Bát cương</div>
+          <div class="input-style" style="width: 100%">
+            <input name="lyDoVaoVien" class="text-input" />
+          </div>
+          <div class="row">3. Nguyên nhân:</div>
+          <div class="input-style" style="width: 100%">
+            <input name="lyDoVaoVien" class="text-input" />
+          </div>
+          <div class="row">4. Tạng phủ:</div>
+          <div class="input-style" style="width: 100%">
+            <input name="lyDoVaoVien" class="text-input" />
+          </div>
+          <div class="row">5. Kinh mạch:</div>
+          <div class="input-style" style="width: 100%">
+            <input name="lyDoVaoVien" class="text-input" />
+          </div>
+          <div class="row">6. Định vị bệnh(dinh, vệ, khí, huyết):</div>
+          <div class="input-style" style="width: 100%">
+            <input name="lyDoVaoVien" class="text-input" />
+          </div>
+          <div class="label-bold" name="benhAn_dieuTri">C: ĐIỀU TRỊ:</div>
+          <div class="label-bold" name="benhAn_dieuTri_yHocCoTruyen">I. Y HỌC CỔ TRUYỀN</div>
+          <div class="row" style="width: 100%;">
+            1. Phương pháp điều trị
+            <div class="input-style" style="width: calc(100% - 155px)">
+              <input name="benhAn_dieuTri_yHocCoTruyen_phuongPhapDieuTri" class="text-input" />
+            </div>
+          </div>
+          <div class="row" name="benhAn_dieuTri_yHocCoTruyen_phuong">2. Phương:</div>
+          <div class="row"  name="">- Phương dược:</div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="benhAn_dieuTri_yHocCoTruyen_phuong_phuongDuoc" class="text-input" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="phuongDuoc" class="text-input" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="phuongDuoc" class="text-input" />
+            </div>
+          </div>
+          <div class="row">- Phương pháp điều trị không dùng thuốc:</div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input
+                name="benhAn_dieuTri_yHocCoTruyen_phuong_phuongPhapDieuTriKhongDungThuoc"
+                class="text-input"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input
+                name="phuongPhapDieuTriKhongDungThuoc"
+                class="text-input"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input
+                name="phuongPhapDieuTriKhongDungThuoc"
+                class="text-input"
+              />
+            </div>
+          </div>
+          <div class="label-bold" name="benhAn_dieuTri_yHocHienDai">II. Y HỌC HIỆN ĐẠI:</div>
+
+          <div class="row">
+            Hướng điều trị(phương pháp điều trị, chế độ dinh dướng, chế độ chăm
+            sóc,...)
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="benhAn_dieuTri_yHocHienDai_huongDieuTri" class="text-input" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="huongDieuTri" class="text-input" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="huongDieuTri" class="text-input" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="huongDieuTri" class="text-input" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="huongDieuTri" class="text-input" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="huongDieuTri" class="text-input" />
+            </div>
+          </div>
+          <div class="label-bold">III. DỰ HẬU(TIÊN LƯỢNG):</div>
+
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="benhAn_dieuTri_yHocHienDai_duHau" class="text-input" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="duHau" class="text-input" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="duHau" class="text-input" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="duHau" class="text-input" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="duHau" class="text-input" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-style" style="width: 100%">
+              <input name="duHau" class="text-input" />
+            </div>
+          </div>
+
+          <div class="chu-ky column" style="float: right">
+            <div class="date row">
+              Ngày
+              <div class="input-style" style="width: 20px">
+                <input name="chuKy_NgayThangNam" class="text-input" />
+              </div>
+              tháng
+              <div class="input-style" style="width: 20px">
+                <input name="chuKy_NgayThangNam" class="text-input" />
+              </div>
+              năm
+              <div class="input-style" style="width: 40px">
+                <input name="chuKy_NgayThangNam" class="text-input" />
+              </div>
+            </div>
+            <div class="label-bold">Thầy thuốc khám bệnh, chữa bệnh</div>
+            <div class="bottom">(Ký và ghi rõ họ tên)</div>
+          </div>
+
+          <div class="border-container" style="margin-top: 133px">
+            <div class="text-center label-bold label-1" name="tongKetBenhAnRaVien">
+              PHẦN III: TỔNG KẾT BỆNH ÁN RA VIỆN
+            </div>
+            <br />
+            <div class="row">1. Lý do vào viện:</div>
+            <div class="row">
+              <div class="input-style" style="width: 100%">
+                <input name="tongKetBenhAnRaVien_lyDoVaoVien" class="text-input" />
+              </div>
+            </div>
+
+            <div class="row">2. Quá trình bệnh lý và diễn biến lâm sàn:</div>
+            <div class="row">
+              <div class="input-style" style="width: 100%">
+                <input
+                  name="tongKetBenhAnRaVien_quaTrinhBenhLyVaDienBienLamSan"
+                  class="text-input"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-style" style="width: 100%">
+                <input
+                  name="quaTrinhBenhLyVaDienBienTamLy"
+                  class="text-input"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-style" style="width: 100%">
+                <input
+                  name="quaTrinhBenhLyVaDienBienTamLy"
+                  class="text-input"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-style" style="width: 100%">
+                <input
+                  name="quaTrinhBenhLyVaDienBienTamLy"
+                  class="text-input"
+                />
+              </div>
+            </div>
+            <div class="row">3. Kết quả xét nghiệm cận lâm sàn:</div>
+            <div class="row">
+              <div class="input-style" style="width: 100%">
+                <input name="tongKetBenhAnRaVien_ketQuaXetNghiemCanLamSan" class="text-input" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-style" style="width: 100%">
+                <input name="tongKetBenhAnRaVien_ketQuaXetNghiemCanLamSan" class="text-input" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-style" style="width: 100%">
+                <input name="tongKetBenhAnRaVien_ketQuaXetNghiemCanLamSan" class="text-input" />
+              </div>
+            </div>
+            <div class="row" name="tongKetBenhAnRaVien_chanDoanVaoVien">4. Chẩn đoán vào viện:</div>
+            <div class="row" style="width: 100%;">
+              - Y học hiện đại: Bệnh chính:
+              <div class="input-style" style="width: calc(100% - 283px)">
+                <input name="tongKetBenhAnRaVien_chanDoanVaoVien_yHocHienDai_BenhChinh" class="text-input" />
+              </div>
+              <input name="yHocHienDai_BenhChinh" class="input-10" />
+              <input name="yHocHienDai_BenhChinh" class="input-10" />
+              <input name="yHocHienDai_BenhChinh" class="input-10" />
+              <input name="yHocHienDai_BenhChinh" class="input-10" />
+              <input name="yHocHienDai_BenhChinh" class="input-10" />
+            </div>
+            <div class="row" style="width: 100%;">
+              - Bệnh Kèm theo(nếu có):
+              <div class="input-style" style="width: calc(100% - 262px)">
+                <input name="tongKetBenhAnRaVien_chanDoanVaoVien_yHocHienDai_BenhKemTheo" class="text-input" />
+              </div>
+              <input name="yHocHienDai_BenhKemTheo" class="input-10" />
+              <input name="yHocHienDai_BenhKemTheo" class="input-10" />
+              <input name="yHocHienDai_BenhKemTheo" class="input-10" />
+              <input name="yHocHienDai_BenhKemTheo" class="input-10" />
+              <input name="yHocHienDai_BenhKemTheo" class="input-10" />
+            </div>
+            <div class="row" style="width: 100%;">
+              - Y học cổ truyền: Bệnh chính:
+              <div class="input-style" style="width: calc(100% - 292px)">
+                <input name="tongKetBenhAnRaVien_chanDoanVaoVien_yHocCoTruyen_BenhChinh" class="text-input" />
+              </div>
+              <input name="yHocCoTruyen_BenhChinh" class="input-10" />
+              <input name="yHocCoTruyen_BenhChinh" class="input-10" />
+              <input name="yHocCoTruyen_BenhChinh" class="input-10" />
+              <input name="yHocCoTruyen_BenhChinh" class="input-10" />
+              <input name="yHocCoTruyen_BenhChinh" class="input-10" />
+            </div>
+            <div class="row" style="width: 100%;">
+              - Bệnh Kèm theo(nếu có):
+              <div class="input-style" style="width: calc(100% - 262px)">
+                <input name="tongKetBenhAnRaVien_chanDoanVaoVien_yHocCoTruyen_BenhKemTheo" class="text-input" />
+              </div>
+              <input name="yHocHienDai_BenhKemTheo" class="input-10" />
+              <input name="yHocHienDai_BenhKemTheo" class="input-10" />
+              <input name="yHocHienDai_BenhKemTheo" class="input-10" />
+              <input name="yHocHienDai_BenhKemTheo" class="input-10" />
+              <input name="yHocHienDai_BenhKemTheo" class="input-10" />
+            </div>
+            <div class="row">5. Phương pháp điều trị:</div>
+            <div class="row" style="width: 100%;">
+              -YHHĐ:
+              <div class="input-style" style="width: calc(100% - 60px)">
+                <input name="tongKetBenhAnRaVien_chanDoanVaoVien_phuongPhapDieuTri_YHCT" class="text-input" />
+              </div>
+            </div>
+            <div class="row">
+              6. Kết quả điều trị: 1. khỏi 2. Đỡ 3. Không thay đổi 4. Nặng hơn
+              5. Tử vong
+              <input name="tongKetBenhAnRaVien_chanDoanVaoVien_ketQuaDieuTri" class="input-10" style="margin-left: 10px" />
+            </div>
+            <div class="row">7. Chẩn đoán ra viện:</div>
+            <div class="row" style="width: 100%;">
+              - Y học hiện đại: Bệnh chính:
+              <div class="input-style" style="width: calc(100% - 283px)">
+                <input name="yHocHienDai_BenhChinh" class="text-input" />
+              </div>
+              <input name="yHocHienDai_BenhChinh" class="input-10" />
+              <input name="yHocHienDai_BenhChinh" class="input-10" />
+              <input name="yHocHienDai_BenhChinh" class="input-10" />
+              <input name="yHocHienDai_BenhChinh" class="input-10" />
+              <input name="yHocHienDai_BenhChinh" class="input-10" />
+            </div>
+            <div class="row" style="width: 100%;">
+              - Bệnh Kèm theo(nếu có):
+              <div class="input-style" style="width: calc(100% - 262px)">
+                <input name="yHocHienDai_BenhKemTheo" class="text-input" />
+              </div>
+              <input name="yHocHienDai_BenhKemTheo" class="input-10" />
+              <input name="yHocHienDai_BenhKemTheo" class="input-10" />
+              <input name="yHocHienDai_BenhKemTheo" class="input-10" />
+              <input name="yHocHienDai_BenhKemTheo" class="input-10" />
+              <input name="yHocHienDai_BenhKemTheo" class="input-10" />
+            </div>
+            <div class="row" style="width: 100%;">
+              - Y học cổ truyền: Bệnh chính:
+              <div class="input-style" style="width: calc(100% - 292px)">
+                <input name="yHocCoTruyen_BenhChinh" class="text-input" />
+              </div>
+              <input name="yHocCoTruyen_BenhChinh" class="input-10" />
+              <input name="yHocCoTruyen_BenhChinh" class="input-10" />
+              <input name="yHocCoTruyen_BenhChinh" class="input-10" />
+              <input name="yHocCoTruyen_BenhChinh" class="input-10" />
+              <input name="yHocCoTruyen_BenhChinh" class="input-10" />
+            </div>
+            <div class="row" style="width: 100%;">
+              - Bệnh Kèm theo(nếu có):
+              <div class="input-style" style="width: calc(100% - 262px)">
+                <input name="yHocHienDai_BenhKemTheo" class="text-input" />
+              </div>
+              <input name="yHocHienDai_BenhKemTheo" class="input-10" />
+              <input name="yHocHienDai_BenhKemTheo" class="input-10" />
+              <input name="yHocHienDai_BenhKemTheo" class="input-10" />
+              <input name="yHocHienDai_BenhKemTheo" class="input-10" />
+              <input name="yHocHienDai_BenhKemTheo" class="input-10" />
+            </div>
+
+            <div class="row">8. Tình trạng người bệnh khi ra viện:</div>
+            <div class="row">
+              <div class="input-style" style="width: 100%">
+                <input name="tongKetBenhAnRaVien_chanDoanVaoVien_tinhTrangNguoiBenhKhiRaVien" class="text-input" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-style" style="width: 100%">
+                <input name="tinhTrangNguoiBenhKhiRaVien" class="text-input" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-style" style="width: 100%">
+                <input name="tinhTrangNguoiBenhKhiRaVien" class="text-input" />
+              </div>
+            </div>
+            <div class="row">9. Hướng điều trị và các chế độ tiếp:</div>
+            <div class="row">
+              <div class="input-style" style="width: 100%">
+                <input name="tongKetBenhAnRaVien_chanDoanVaoVien_huongDieuTriVaCacCheDoTiep" class="text-input" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-style" style="width: 100%">
+                <input name="huongDieuTriVaCacCheDoTiep" class="text-input" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-style" style="width: 100%">
+                <input name="huongDieuTriVaCacCheDoTiep" class="text-input" />
+              </div>
+            </div>
+            <div
+              class="chu-ky column"
+              style="float: right; padding-top: 20px; padding-bottom: 100px"
+            >
+              <div class="date row">
+                Ngày
+                <div class="input-style" style="width: 20px">
+                  <input name="chuKy_NgayThangNam" class="text-input" />
+                </div>
+                tháng
+                <div class="input-style" style="width: 20px">
+                  <input name="chuKy_NgayThangNam" class="text-input" />
+                </div>
+                năm
+                <div class="input-style" style="width: 40px">
+                  <input name="chuKy_NgayThangNam" class="text-input" />
+                </div>
+              </div>
+              <div class="label-bold">Thầy thuốc khám bệnh, chữa bệnh</div>
+              <div class="bottom">(Ký và ghi rõ họ tên)</div>
+            </div>
+          </div>
+
+          <table
+            style="
+              border-spacing: 0;
+              border-collapse: collapse;
+              margin-top: 133px;
+              width: 100%;
+            "
+          >
+            <tr>
+              <td>
+                <div class="row">
+                  <div class="label-bold">BỆNH VIỆN</div>
+                  <div class="input-style" style="width: 90px">
+                    <input name="phieuDieuTri_benhVien" class="text-input" />
+                  </div>
+                </div>
+                <div class="row">
+                  KHOA
+                  <div class="input-style" style="width: 133px">
+                    <input name="phieuDieuTri_khoa" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row" style="width: 250px">
+                  <div class="text-center label-bold label-1" name="phieuDieuTri">
+                    PHIẾU ĐIỀU TRỊ
+                  </div>
+                </div>
+                <div class="row">
+                  Tờ số
+                  <div class="input-style" style="width: 60%">
+                    <input name="phieuDieuTri_toSo" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  Số vào viện:
+                  <div class="input-style" style="width: 160px">
+                    <input name="phieuDieuTri_soVaoVien" class="text-input" />
+                  </div>
+                </div>
+                <div class="row">
+                  Buồng:
+                  <div class="input-style" style="width: 195px">
+                    <input name="phieuDieuTri_buong" class="text-input" />
+                  </div>
+                </div>
+                <div class="row">
+                  Giường:
+                  <div class="input-style" style="width: 190px">
+                    <input name="phieuDieuTri_giuong" class="text-input" />
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="3">
+                <div class="row" style="width: 100%;">
+                  Họ tên người bệnh:
+                  <div class="input-style" style="width: calc(100% - 395px)">
+                    <input name="phieuDieuTri_hoTenNguoiBenh" class="text-input" />
+                  </div>
+                  Tuổi
+                  <div class="input-style" style="width: 100px">
+                    <input name="phieuDieuTri_tuoi" class="text-input" />
+                  </div>
+                  Giới
+                  <div class="input-style" style="width: 100px">
+                    <input name="phieuDieuTri_gioi" class="text-input" />
+                  </div>
+                </div>
+                <div class="row">Chẩn đoán:</div>
+                <div class="row" style="width: 100%;">
+                  <div class="input-style" style="width: 100%">
+                    <input name="phieuDieuTri_chanDoan" class="text-input" />
+                  </div>
+                </div>
+                <div class="row" style="width: 100%;">
+                  <div class="input-style" style="width: 100%">
+                    <input name="chanDoan" class="text-input" />
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="label-bold">NGÀY GIỜ</div>
+              </td>
+              <td>
+                <div class="label-bold">DIỄN BIẾN BỆNH</div>
+              </td>
+              <td>
+                <div class="label-bold">Y LỆNH TRỊ LIỆU</div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="phieuDieuTri_ngayGio" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="phieuDieuTri_dienBienBenh" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="phieuDieuTri_yLenhTriLieu" class="text-input" />
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="ngayGio" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="dienBienBenh" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="yLenhTriLieu" class="text-input" />
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="ngayGio" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="dienBienBenh" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="yLenhTriLieu" class="text-input" />
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="ngayGio" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="dienBienBenh" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="yLenhTriLieu" class="text-input" />
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="ngayGio" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="dienBienBenh" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="yLenhTriLieu" class="text-input" />
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="ngayGio" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="dienBienBenh" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="yLenhTriLieu" class="text-input" />
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="ngayGio" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="dienBienBenh" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="yLenhTriLieu" class="text-input" />
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="ngayGio" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="dienBienBenh" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="yLenhTriLieu" class="text-input" />
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="ngayGio" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="dienBienBenh" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="yLenhTriLieu" class="text-input" />
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="ngayGio" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="dienBienBenh" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="yLenhTriLieu" class="text-input" />
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="ngayGio" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="dienBienBenh" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="yLenhTriLieu" class="text-input" />
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="ngayGio" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="dienBienBenh" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="yLenhTriLieu" class="text-input" />
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="ngayGio" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="dienBienBenh" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="yLenhTriLieu" class="text-input" />
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="ngayGio" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="dienBienBenh" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="yLenhTriLieu" class="text-input" />
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="ngayGio" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="dienBienBenh" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="yLenhTriLieu" class="text-input" />
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="ngayGio" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="dienBienBenh" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="yLenhTriLieu" class="text-input" />
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="ngayGio" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="dienBienBenh" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="yLenhTriLieu" class="text-input" />
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="ngayGio" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="dienBienBenh" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="yLenhTriLieu" class="text-input" />
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="ngayGio" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="dienBienBenh" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="yLenhTriLieu" class="text-input" />
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="ngayGio" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="dienBienBenh" class="text-input" />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row">
+                  <div style="width: 90%">
+                    <input name="yLenhTriLieu" class="text-input" />
+                  </div>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </form>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

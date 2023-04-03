@@ -1,0 +1,99 @@
+body {
+  background: black;
+}
+.container {
+  background: white;
+  width: calc(100% - 120px);
+  padding: 40px 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form {
+  background: white;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.form-table,
+td {
+  border: 1px solid black;
+}
+.text-input {
+  outline: none;
+  border: unset;
+  width: 100%;
+}
+.input-style {
+  position: relative;
+  margin-right: 4px;
+}
+.input-style::before {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 1px;
+  border: unset;
+  border-bottom: 1px dotted black;
+  bottom: 3px;
+}
+.row {
+  display: flex;
+}
+.row-space {
+  justify-content: space-between;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  position: relative;
+}
+.header > .center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-weight: bold;
+  font-size: 22px;
+}
+.header > .left {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.header > .right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.chu-ky {
+  align-items: center;
+}
+.chu-ky > .date,
+.chu-ky > .bottom {
+  font-style: italic;
+}
+.text-center {
+  text-align: center;
+}
+.label-bold {
+  font-weight: bold;
+}
+.label-1 {
+  font-size: 20px;
+}
+.input-10 {
+  width: 10px;
+}
+.input-20 {
+  width: 20px;
+}
+input {
+  height: 12px;
+}
