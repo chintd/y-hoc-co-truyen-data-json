@@ -251,10 +251,10 @@ var json = {
         "hoTenNguoiBenh": " Nguyễn Văn A",
         "tuoi": 23,
         "gioi": "nam",
-        "chanDoan": "bệnh nghèo",
+        "chanDoan": "",
         "ngayGio": "20/12/2000",
-        "dienBienBenh": "mỏi tay vì code quá nhiều ",
-        "yLenhTriLieu": "1 chai rượu đế"
+        "dienBienBenh": " ",
+        "yLenhTriLieu": ""
     
     }
   }
